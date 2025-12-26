@@ -3,7 +3,7 @@ import { courseDescription, courseTitle } from '../assets/courseData'
 
 const Hero = () => {
   return (
-    <section className='mt-4 h-[70vh] flex flex-col gap-20'>
+    <section className='mt-10 h-[70vh] flex flex-col gap-20'>
 
         <div>
             {/* Title */}
