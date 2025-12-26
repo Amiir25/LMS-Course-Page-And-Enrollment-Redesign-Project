@@ -34,6 +34,7 @@ const CourseContent = () => {
                                         { course.lectures.length } Lectures | { course.duration }
                                     </p>
                                 </div>
+                                
                             </div>
 
                             {/* Lectures */}

@@ -8,7 +8,7 @@ const Requirements = () => {
         <div>
             {
                 requirements.map((requirement, i) => (
-                    <div className='flex items-start gap-2 my-2'>
+                    <div key={i} className='flex items-start gap-2 my-2'>
                       <p>⦿</p>
                       <p key={i}>{ requirement }</p>
                     </div>

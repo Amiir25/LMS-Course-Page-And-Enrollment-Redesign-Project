@@ -10,10 +10,10 @@ const CourseData = () => {
   ];
 
   return (
-    <section className='mt-8'>
+    <section className='mt-12 md:mt-8 pl-6 md:pl-1'>
       {
         data.map((d, i) => (
-          <div key={i} className='flex items-center gap-2 my-2'>
+          <div key={i} className='flex items-center gap-2 my-4 md:my-2'>
             <img src={ icons.checkMark } alt="Checkmark Icon" className='w-5 lg:w-6' />
             <p className='text-sm md:text-md'>{ d }</p>
           </div>   
