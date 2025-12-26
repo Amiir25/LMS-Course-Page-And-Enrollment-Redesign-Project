@@ -1,12 +1,13 @@
 import React from 'react'
 import { courseObjectives, icons } from '../assets/courseData'
+import Title from './Title'
 
 const CourseObjective = () => {
   return (
     <section className='mt-40'>
-        <h2 className='text-3xl font-semibold mb-4'>
-            By the end of this course, you'll be able to:
-        </h2>
+        
+        <Title title="By the end of this course, you'll be able to:" />
+
         <div className='flex items-start gap-4'>
             {
                 courseObjectives.map((section) => (
