@@ -1,10 +1,13 @@
 import React from 'react'
 import Title from './Title'
-import { instructorData } from '../assets/courseData'
+import { images, instructorData } from '../assets/courseData'
 
 const Instructor = () => {
   return (
-    <section className='mt-20'>
+    <section style={{ backgroundImage: `url(${ images.instructor })` }}
+    className='mt-20 bg-contain bg-center'>
+      <div className='bg-linear-to-r from-white via-white/85 to-white py-4'>
+
         <Title title='About the Instructor'/>
         
         <div className='flex items-center gap-4 mt-10'>
@@ -16,6 +19,7 @@ const Instructor = () => {
         </div>
 
         <p className='mt-4'>{ instructorData.description }</p>
+      </div>
     </section>
   )
 }
