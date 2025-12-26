@@ -8,7 +8,7 @@ const Requirements = () => {
         <div>
             {
                 requirements.map((requirement, i) => (
-                    <p>⦿ { requirement }</p>
+                    <p key={i}>⦿ { requirement }</p>
                 ))
             }
         </div>

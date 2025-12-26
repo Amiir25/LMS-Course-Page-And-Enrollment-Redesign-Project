@@ -6,7 +6,7 @@ const Rating = () => {
     <section className='flex items-center gap-1 mt-2'>
         {
             Array(5).fill('').map((__, i) => (
-                <img src={`${ i === 4 ? icons.halfStar : icons.star }`} alt="Rating"
+                <img key={i} src={`${ i === 4 ? icons.halfStar : icons.star }`} alt="Rating"
                 className='w-4' />
             )) 
         }
