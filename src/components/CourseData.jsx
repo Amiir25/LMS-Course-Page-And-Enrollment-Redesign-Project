@@ -4,7 +4,7 @@ import { courseData, icons } from '../assets/courseData'
 const CourseData = () => {
 
   const data = [
-    `${ courseData.students } Enrolled`,
+    `${ courseData.students }+ Students Enrolled`,
     `${ courseData.rate } Rating`,
     'Certificate of Complition',
   ];
