@@ -1,5 +1,6 @@
 import React from 'react'
 import { courseDescription, courseTitle } from '../assets/courseData'
+import Title from './Title'
 
 const Hero = () => {
   return (
@@ -19,7 +20,7 @@ const Hero = () => {
 
         {/* Description */}
         <div>
-            <h2 className='text-3xl font-semibold mb-4'>Description</h2>
+            <Title title='Description' />
             {
                 courseDescription.map((text, i) => (
                     <p className='my-4'>{ text }</p>
