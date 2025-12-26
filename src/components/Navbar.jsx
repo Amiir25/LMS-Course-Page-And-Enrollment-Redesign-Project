@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className='py-4 flex items-center justify-between'>
 
       {/* Logo */}
-      <img src={ images.logo2 } alt="Shopping Cart" className='w-32' />
+      <img src={ images.logo2 } alt="Logo" className='w-32' />
 
       {/* Profile */}
       <img src={ images.user } alt="User" className='w-12 rounded-full' />
