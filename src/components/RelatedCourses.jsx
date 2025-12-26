@@ -15,7 +15,7 @@ const RelatedCourses = () => {
                     hover:border-gray-200 hover:shadow-xl transition-all duration-300'>
                         <img src={ course.image } alt={`${ course.name } Course`}
                         className='w-40' />
-                        <h2 className='max-w-40 text-sm font-bold'>{ course.name }</h2>
+                        <h2 className='max-w-40 text-sm font-semibold'>{ course.name }</h2>
                         <Rating/>
                     </div>
                 ))

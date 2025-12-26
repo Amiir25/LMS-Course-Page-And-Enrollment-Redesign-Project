@@ -4,16 +4,16 @@ import Title from './Title'
 
 const Hero = () => {
   return (
-    <section className='mt-10 h-[70vh] flex flex-col gap-20'>
+    <section className='mt-10 lg:h-[70vh] flex flex-col gap-20'>
 
         <div>
             {/* Title */}
-            <h1 className='text-5xl font-bold'>
+            <h1 className='md:text-4xl lg:text-5xl font-bold'>
                 { courseTitle.title }
             </h1>
 
             {/* Subtitle */}
-            <p className='text-xl mt-4'>
+            <p className='md:text-lg lg:text-xl mt-4'>
                 { courseTitle.subtitle }
             </p>
         </div>

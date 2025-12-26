@@ -26,7 +26,7 @@ const CourseContent = () => {
                                 <img src={ activeCourse === course.id ? icons.arrowUp : icons.arrowDown } alt="Arrow"
                                 className='w-6' />
 
-                                <div className='flex items-center justify-between w-full'>
+                                <div className='flex flex-col lg:flex-row items-start lg:items-center justify-between w-full'>
                                     <h1 className='font-semibold'>
                                         Module { course.id } : { course.title }
                                     </h1>
@@ -44,7 +44,7 @@ const CourseContent = () => {
                                         <div key={i} className='flex items-center gap-3 my-2 cursor-pointer group'>
                                             <img src={ icons.onlineVideo } alt="Video Icon"
                                             className='w-4' />
-                                            <div className='flex items-center justify-between w-full'>
+                                            <div className='flex flex-col lg:flex-row items-start lg:items-center justify-between w-full'>
                                                 <h2 className='group-hover:underline'>
                                                     { lecture.title }
                                                 </h2>

@@ -7,7 +7,7 @@ const Rating = () => {
         {
             Array(5).fill('').map((__, i) => (
                 <img key={i} src={`${ i === 4 ? icons.halfStar : icons.star }`} alt="Rating"
-                className='w-4' />
+                className='w-3 lg:w-4' />
             )) 
         }
     </section>
