@@ -23,7 +23,7 @@ const Hero = () => {
             <Title title='Description' />
             {
                 courseDescription.map((text, i) => (
-                    <p className='my-4'>{ text }</p>
+                    <p key={i} className='my-4'>{ text }</p>
                 ))
             }
         </div>
