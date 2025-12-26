@@ -7,7 +7,7 @@ import EnrollNow from './EnrollNow'
 
 const EnrollmentBar = () => {
   return (
-    <section className='border border-gray-400 w-[360px] rounded-xl p-4 mt-4'>
+    <section className='border border-gray-400 w-[360px] rounded-xl p-4 mt-10'>
         <Preview/>
         <Rating/>
         <CourseData/>
