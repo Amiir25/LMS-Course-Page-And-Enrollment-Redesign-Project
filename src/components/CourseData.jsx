@@ -13,7 +13,7 @@ const CourseData = () => {
     <section className='mt-8'>
       {
         data.map((d, i) => (
-          <div className='flex items-center gap-2 my-2'>
+          <div key={i} className='flex items-center gap-2 my-2'>
             <img src={ icons.checkMark } alt="Checkmark Icon" className='w-6' />
             <p>{ d }</p>
           </div>   
