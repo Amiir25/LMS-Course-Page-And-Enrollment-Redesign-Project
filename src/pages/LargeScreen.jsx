@@ -8,7 +8,7 @@ import Instructor from '../components/Instructor'
 import RelatedCourses from '../components/RelatedCourses'
 import CourseContent from '../components/CourseContent'
 
-const LargeScreen = () => {
+const LargeScreen = ({ status, setStatus }) => {
   return (
     <section className='relative'>
 
@@ -23,7 +23,7 @@ const LargeScreen = () => {
             </div>
             
             <div className='sticky top-2 flex-1'>
-              <EnrollmentBar/>
+              <EnrollmentBar status={ status } setStatus={ setStatus }/>
             </div>
         </div>
 
