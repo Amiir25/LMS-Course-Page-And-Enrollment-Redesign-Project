@@ -101,8 +101,8 @@ This approach keeps logic **simple, readable, and scalable** without using Conte
 ## 👤 Author
 
 **Amir Sadik**  
-Software Programmer Intern  
-<a href="https://ahmad-portfolio.com" target="_blank">My Portfolio</a>
+Software Programmer Intern
+[My Portfolio](https://ahmad-portfolio.com)
 
 ---
 
