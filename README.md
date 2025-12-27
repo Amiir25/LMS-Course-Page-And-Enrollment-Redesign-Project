@@ -30,7 +30,7 @@ The goal is to redesign and implement a modern, student-facing **course page and
 
 ## 📐 Design Prototype (Figma)
 
-**[Figma Prototype]**(https://www.figma.com/design/e1vqbe3LaHMNCaOOLxBmgo/LMS-Course-Page---Enrollment-Redesign-Project?node-id=0-1&t=6Y8vG4PZkzvRIhyt-1)
+[Figma Prototype](https://www.figma.com/design/e1vqbe3LaHMNCaOOLxBmgo/LMS-Course-Page---Enrollment-Redesign-Project?node-id=0-1&t=6Y8vG4PZkzvRIhyt-1)
 
 The prototype includes:
 - Course details page
@@ -93,8 +93,8 @@ This approach keeps logic **simple, readable, and scalable** without using Conte
 
 ## 📦 Repository & Submission Links
 
-- **[GitHub Repository]**(https://github.com/Amiir25/LMS-Course-Page-And-Enrollment-Redesign-Project.git)  
-- **[Figma Prototype]**(https://www.figma.com/design/e1vqbe3LaHMNCaOOLxBmgo/LMS-Course-Page---Enrollment-Redesign-Project?node-id=0-1&t=6Y8vG4PZkzvRIhyt-1)  
+- [GitHub Repository](https://github.com/Amiir25/LMS-Course-Page-And-Enrollment-Redesign-Project.git)  
+- [Figma Prototype](https://www.figma.com/design/e1vqbe3LaHMNCaOOLxBmgo/LMS-Course-Page---Enrollment-Redesign-Project?node-id=0-1&t=6Y8vG4PZkzvRIhyt-1)  
 
 ---
 
