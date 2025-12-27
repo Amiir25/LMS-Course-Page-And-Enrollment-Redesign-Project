@@ -102,7 +102,7 @@ This approach keeps logic **simple, readable, and scalable** without using Conte
 
 **Amir Sadik**  
 Software Programmer Intern  
-[My Portfolio](https://amirsadik.vercel.app/)  
+<a href="https://ahmad-portfolio.com" target="_blank">My Portfolio</a>
 
 ---
 
