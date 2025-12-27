@@ -100,7 +100,7 @@ This approach keeps logic **simple, readable, and scalable** without using Conte
 
 ## 👤 Author
 
-**[Your Name]**  
+**Amir Sadik**  
 Software Programmer Intern  
 [My Portfolio](https://amirsadik.vercel.app/)  
 
