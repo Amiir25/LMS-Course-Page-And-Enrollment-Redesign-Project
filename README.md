@@ -93,6 +93,7 @@ This approach keeps logic **simple, readable, and scalable** without using Conte
 
 ## 📦 Repository & Submission Links
 
+- [Live Link](https://fidel-week-1.vercel.app/)
 - [GitHub Repository](https://github.com/Amiir25/LMS-Course-Page-And-Enrollment-Redesign-Project.git)  
 - [Figma Prototype](https://www.figma.com/design/e1vqbe3LaHMNCaOOLxBmgo/LMS-Course-Page---Enrollment-Redesign-Project?node-id=0-1&t=6Y8vG4PZkzvRIhyt-1)  
 
